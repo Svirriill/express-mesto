@@ -1,12 +1,13 @@
 {
   "name": "express-mesto",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend project mesto",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js"
   },
   "keywords": [],
   "author": "Alexandr Kazarin",
@@ -18,7 +19,6 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.2.0",
     "express": "^4.17.1"
   }
 }
